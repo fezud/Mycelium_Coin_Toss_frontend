@@ -8,7 +8,6 @@ class CoinToss extends Component {
     this.state = {
       walletAddress: "none",
     };
-    this.setState = this.setState.bind(this);
     this.setWalletAddress = this.setWalletAddress.bind(this);
   }
 
