@@ -1,13 +1,59 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #333;
+  color: aliceblue;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.content {
+  text-align: center;
+}
+
+.connect-wallet-btn {
+  background-color: aliceblue;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  color: #333;
+  font-size: 20px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.status {
+  background-color: #333;
+  width: 100%;
+}
+
+.status-cols {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.pool-status-col {
+  margin: 10px auto 10px 10px;
+  height: 50px;
+  width: 100px;
+}
+
+.wallet-status-col {
+  margin: 10px 10px 10px auto;
+  height: 50px;
+  width: 100px;
 }
